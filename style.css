@@ -80,6 +80,14 @@ img {
     box-sizing: border-box;
   }
 
+  #lezioni{
+    background-color: rgb(239, 241, 194);
+  }
+
+  #why {
+    background-color: rgb(239, 241, 194);
+  }
+
   .row {
     width: 100%;
     margin: 0;
@@ -98,8 +106,14 @@ img {
     padding-bottom: 40px;
   }
 
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 20px;
+  }
+
   .row > h1 {
-    padding: 30px 0;
+    padding: 20px 0;
   }
 
   hr {
